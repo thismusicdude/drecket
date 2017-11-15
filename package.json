@@ -1,19 +1,18 @@
 {
   "name": "Drecket",
   "main": "./lib/drecket",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A package to debug the ugliest programmingteachinglenguage ever! RACKET! *puke* just press Strg+R. first u need to install the atom-message-panel with 'npm i atom-message-panel', have fun.",
-  "keywords": [
+  "keywords": ["Racket", "DrRacket", "Drecket", "programmingteachinglenguage", "Debugger", "Console", "Debug"
   ],
   "activationCommands": {
     "atom-workspace": "drecket:debug"
   },
-  "repository": "https://github.com/atom/drecket",
+  "repository": "https://github.com/PonySchreck/drecket",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-
-  "dependencies": { "atom-message-panel"
+  "dependencies": { "atom-message-panel": "1.2.5"
   }
 }
