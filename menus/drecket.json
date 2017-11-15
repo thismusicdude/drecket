@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Debug drecket",
+        "command": "drecket:debug"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Drecket",
+          "submenu": [
+            {
+              "label": "Debug",
+              "command": "drecket:debug"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
